@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+}
+
+#repo{
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-columns: repeat(2,50%);
+  gap: 20px;
+}
