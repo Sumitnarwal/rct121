@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+#restid {
+  display: flex;
+  height: 200px;
+  border: 1px solid black;
+  padding: 20px;
+  margin-bottom: 10px;
+justify-content: space-between;
+
+}
+
+#r1{
+  /* border: 1px solid rgb(30, 0, 255); */
+  margin-top: 10px;
+  
+}
+#h12 {
+  /* border: 1px solid red; */
+  line-height: 0.8;
+
+}
+
+#restid img {
+  width: 200px;
+  height: 200px;
+}
+
+/* #main1 {
+display: grid;
+grid-template-columns: repeat(2,45%);
+justify-content: space-around;
+border: 1px solid red;
+} */
