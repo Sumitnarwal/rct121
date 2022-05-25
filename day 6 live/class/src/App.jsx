@@ -1,13 +1,17 @@
 
 import './App.css'
-import { Tree } from './compo/tree'
+import { Tree } from './compo/first'
+import { Second } from './compo/sec'
 
 function App() {
 
   return (
     <div className="App">
-    <Tree/>
-  
+   {
+   // <Tree/>
+  }
+<Second/>
+
     </div>
   )
 }

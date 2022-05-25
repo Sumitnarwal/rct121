@@ -8,7 +8,8 @@ export const Tree = () => {
                 sm: '30em',
                 lg: '62em',
             
-              }}  fontSize={{ base: '24px', md: '40px'}} spacing='00px'>
+              }} 
+               fontSize={{ base: '24px', md: '40px'}} spacing='00px'>
             
                 <WrapItem >
                     <Center w='300px' h='200px' bg='blue'>
