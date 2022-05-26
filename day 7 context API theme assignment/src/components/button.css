@@ -1,0 +1,18 @@
+
+
+
+.buttonBase {
+  padding: 1rem;
+  font-size: 16px;
+  background-color: rgb(160, 132, 132);
+  color: white
+}
+
+.buttonLight {
+  background-color: rgb(160, 132, 132);
+  color: white;
+}
+.buttonDark {
+  background-color: black;
+  color: white;
+}
