@@ -47,14 +47,20 @@ const GithubReducer = (state, action) => {
         default: return state;
     }
 }
+// export function Paginate(array, page_size, page_number) {
+//     return array.slice((page_number - 1) * page_size, page_number * page_size);
+//   }
+  
 export const Github = () => {
     const { search } = useContext(GitContext)
     const [{ loading, error, data }, dispatch] = useReducer(GithubReducer, initState)
+
     useEffect(() => {
         getData({ search })
-        console.log("frer", search)
+      //  console.log("frer", search)
     }, [search])
-    const getData = ({ q = search }) => {
+
+    const getData = ({  q=search }) => {
         dispatch({
             type: GithubActions.fetch
         });
