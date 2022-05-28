@@ -1,20 +1,21 @@
 import { Link } from "react-router-dom"
 
 
+import "../css/navbar.css"
 
 
 
-
-export const Navbar=()=>{
-    return(
-
-        <div>
-        <Link to="/store">Store</Link>
-        <Link to="/mac">Mac</Link>
-        <Link to="/ipad">iPad</Link>
-        <Link to="/watch">iPhone</Link>
-        <Link to="/iphone">Watch</Link>
-        <Link to="/cart">cart</Link>
+export const Navbar = () => {
+    return (
+        <div id="top">
+            <div id="navbar">
+                <Link id="pk" to="/store">Store</Link>
+                <Link id="pk" to="/mac">Mac</Link>
+                <Link id="pk" to="/ipad">iPad</Link>
+                <Link id="pk" to="/watch">iPhone</Link>
+                <Link id="pk" to="/iphone">Watch</Link>
+                <Link id="pk" to="/cart">cart</Link>
+            </div>
         </div>
     )
 }

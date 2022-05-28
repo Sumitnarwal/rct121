@@ -9,12 +9,14 @@ import { Mac } from './components/Mac'
 import { Store } from './components/store'
 import { Watch } from './components/Watch'
 import { Navbar } from './components/navbar'
+import { Banner } from './components/banner'
 
 function App() {
  
   return (
     <div className="App">
     <Navbar/>
+    <Banner/>
   <Routes>
   <Route path='/cart' element={<Cart/>} />
   <Route path='/ipad' element={<Ipads/>} />
