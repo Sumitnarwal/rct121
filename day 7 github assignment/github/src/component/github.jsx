@@ -1,4 +1,4 @@
-import { useContext, useEffect, useReducer } from "react"
+import { useContext, useEffect, useReducer, useState } from "react"
 import axios from "axios"
 import { GitContext } from "../context/gitContext"
 const initState = {
@@ -47,29 +47,35 @@ const GithubReducer = (state, action) => {
         default: return state;
     }
 }
-// export function Paginate(array, page_size, page_number) {
-//     return array.slice((page_number - 1) * page_size, page_number * page_size);
-//   }
-  
+
+
 export const Github = () => {
     const { search } = useContext(GitContext)
+    const [page, setPage] = useState(1)
     const [{ loading, error, data }, dispatch] = useReducer(GithubReducer, initState)
-
+    const [textser, setSertext] = useState("masai")
     useEffect(() => {
-        getData({ search })
-      //  console.log("frer", search)
-    }, [search])
+        getData({ search, page })
 
-    const getData = ({  q=search }) => {
+        console.log("frer", page)
+    }, [search, page])
+
+    // function Paginate(array, page_size, page_number) {
+    //     return array.slice((page_number - 1) * page_size, page_number * page_size);
+    // }
+
+    const getData = ({ q = search, page = 1 }) => {
         dispatch({
             type: GithubActions.fetch
         });
+
         axios({
-            url: "https://api.github.com/users",
+            url: "https://api.github.com/search/users",
             method: "GET",
             params: {
-                q,
-                _limit: 5
+                per_page: 5,
+                page,
+                q
 
             }
         }).then((res) => {
@@ -77,18 +83,37 @@ export const Github = () => {
                 type: GithubActions.success,
                 payload: res.data
             })
+            console.log(res.data)
         }).catch((err) => {
             dispatch({
                 type: GithubActions.failure
             });
         })
     }
+    const handleChange = (value) => {
+        if (page >= 0) {
+            setPage(page + value)
+        }
+    }
     return (
         <div>
-            {data?.map((item) => (
-                <div key={item.id}>{item.login}</div>
-            ))}
+            <div>
+                <button disabled={page == 1} onClick={() => handleChange(-1)} >Prev</button>
+                <button onClick={() => handleChange(1)}>Next</button>
+            </div><hr />
+            {
+                data?.items?.map((item) => (
+                    <div key={item.id}>{item.login}</div>
+                ))
+
+                //   data?.items? Paginate(data,5,page).map((el)=>{
+                //  return  <div key={el.id}>{el.login}</div>
+                //     }) :""
+
+            }
 
         </div>
     )
 }
+
+
