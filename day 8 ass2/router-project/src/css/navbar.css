@@ -33,3 +33,10 @@
     color: white;
     padding: 5px;
 }
+#footer{
+    width: 80%;
+    margin: auto;
+    height: 400px;
+    background-color: antiquewhite;
+
+}

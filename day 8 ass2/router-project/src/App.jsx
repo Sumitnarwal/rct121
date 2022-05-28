@@ -2,14 +2,15 @@ import { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
-import { Cart } from './components/cart'
-import { Ipads } from './components/iPad'
-import { Iphone } from './components/Iphone'
-import { Mac } from './components/Mac'
-import { Store } from './components/store'
-import { Watch } from './components/Watch'
+import { Cart } from './navbarComp/cart'
+import { Ipads } from './navbarComp/iPad'
+import { Iphone } from './navbarComp/Iphone'
+import { Mac } from './navbarComp/Mac'
+import { Store } from './navbarComp/store'
+import { Watch } from './navbarComp/Watch'
 import { Navbar } from './components/navbar'
 import { Banner } from './components/banner'
+import { Footer } from './components/footer'
 
 function App() {
  
@@ -25,6 +26,7 @@ function App() {
   <Route path='/store' element={<Store/>} />
   <Route path='/watch' element={<Watch/>} />
   </Routes>
+  <Footer/>
     </div>
   )
 }
