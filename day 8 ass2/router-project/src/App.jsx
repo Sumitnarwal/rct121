@@ -11,6 +11,7 @@ import { Watch } from './navbarComp/Watch'
 import { Navbar } from './components/navbar'
 import { Banner } from './components/banner'
 import { Footer } from './components/footer'
+import { ProdDetail } from './components/productDetailPage'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
         <Route path='/mac' element={<Mac />} />
         <Route path='/store' element={<Store />} />
         <Route path='/watch' element={<Watch />} />
+        <Route path='/prod/:id' element={<ProdDetail/>}/>
       </Routes>
       <Footer />
     </div>

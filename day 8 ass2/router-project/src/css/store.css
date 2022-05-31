@@ -1,0 +1,40 @@
+#storee {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  gap: 30px;
+}
+#storee img {
+  width: 300px;
+  height: 200px;
+}
+
+#imgk:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+#kk2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    border: 1px solid black;
+   
+    padding: 30px;
+}
+
+#cart{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+
+}
+#kk2>div>img{
+    width: 350px;
+    height: 300px;
+}
+#kk2>div{
+    margin-right: 30px;
+
+}

@@ -20,7 +20,7 @@ export const Banner = () => {
        //     console.log("no",no)
             setNo(no+1)
         }, 2000)
-        console.log("tr",timeRef.current)
+       // console.log("tr",timeRef.current)
 
     }
     return (
