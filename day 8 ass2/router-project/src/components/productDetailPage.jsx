@@ -1,13 +1,14 @@
 import axios from "axios"
 import { useEffect, useState } from "react"
-import { useParams } from "react-router-dom"
+import { Navigate, useNavigate, useParams } from "react-router-dom"
+import { Cart } from "../navbarComp/cart"
 
 
 
 export const ProdDetail = () => {
     const [pro, setPro] = useState([])
     const { id } = useParams()
-
+    const navigate=useNavigate()
     useEffect(() => {
         getData();
     }, [])
@@ -36,8 +37,17 @@ export const ProdDetail = () => {
             alert("product add to cart")
         })
     }
+    const goTOCart=()=>[
+       // <Navigate to={"/cart"}/>
+      navigate("/cart")
+    ]
+    const backP=()=>{
+        navigate(-1)
+    }
     return (
         <div>
+        <button onClick={backP}>Go to Back</button>
+        <button onClick={goTOCart}>Go to Cart</button>
             <h2>
                 Detail of products
             </h2>

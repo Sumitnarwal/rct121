@@ -1,12 +1,12 @@
 
     import axios from "axios"
     import { useEffect, useState } from "react"
-import { Link } from "react-router-dom"
+import { Link, Navigate, useNavigate } from "react-router-dom"
     import "../css/store.css"
 
 export const Ipads=()=>{
   
-
+    const navigate=useNavigate()
 
     const [mac, setMac] = useState([])
     useEffect(() => {
@@ -34,14 +34,17 @@ export const Ipads=()=>{
             }
         })
     }
+    const goTodetail=(id)=>{
+        navigate(`/prod/${id}`)
+    }
     console.log(mac)
     return (
         <div>
         <h2>Shop iPad</h2>
         <div id="storee">
         {mac?.map((item)=>(
-            <div id="imgk" key={item.id}>
-            <Link to={`/prod/${item.id}`}> <img src={item.img} /> </Link>
+            <div onClick={()=>goTodetail(item.id)} id="imgk" key={item.id}>
+            <img src={item.img} /> 
             <p>{item.name}</p>
             <p>$ {item.price}</p>
             <button onClick={() => handleAdd(item.id,item.img,item.name,item.price)}>ADD TO CART</button>
