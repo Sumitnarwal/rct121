@@ -19,7 +19,9 @@ function App() {
     <div className="App">
       <Navbar />
       <Banner />
+      
       <Routes>
+    
         <Route path='/cart' element={<Cart />} />
         <Route path='/ipad' element={<Ipads />} />
         <Route path='/iphone' element={<Iphone />} />
