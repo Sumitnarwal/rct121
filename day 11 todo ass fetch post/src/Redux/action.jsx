@@ -27,6 +27,9 @@ export const getTodo = (dispatch) => {
     return axios({
         url: "https://json-server-mocker-masai.herokuapp.com/tasks",
         method: "GET",
+        params:{
+            _limit:5
+        }
        
     }).then((res) => {
         const todoSuccessAction = getTodosucess(res.data)
@@ -44,15 +47,15 @@ export const getTodo = (dispatch) => {
 
 export const addTodoRequest = () => ({
 
-    type: todosActions.ADD_TODOS_REQUEST
+    type: ADD_TODOS_REQUEST
 })
 export const addTodoSuccess = (data) => ({
-    type: todosActions.ADD_TODOS_SUCCESS,
+    type: ADD_TODOS_SUCCESS,
     payload: data
 })
 
 export const addTodoFailure = () => ({
-    type: todosActions.ADD_TODOS_FAILURE
+    type: ADD_TODOS_FAILURE
 })
 //////////when add todo the this router
 export const addTodos = ({ title, dispatch }) => {

@@ -3,4 +3,4 @@ import { reducer } from "./reducer";
 
  
 export const store=legacy_createStore(reducer);
-console.log("state",store.getState());
+console.log("state",store.getState()); 
