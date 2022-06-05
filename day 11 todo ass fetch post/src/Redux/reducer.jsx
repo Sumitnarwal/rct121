@@ -14,15 +14,9 @@ export const reducer = (store = initstate, { type, payload }) => {
         case GET_TODOS_SUCCESS: { return { ...store, loading: false, error: false, todos: payload } }
         case GET_TODOS_FAILURE: { return { ...store, loading: true, error: true } }
       
-        case ADD_TODOS_REQUEST: {
-            return { ...store, loading: true, error: false }
-        }
-        case ADD_TODOS_SUCCESS: {
-            return { ...store, loading: false,}
-        }
-        case ADD_TODOS_FAILURE: {
-            return { ...store, loading: true, error: false }
-        }
+        case ADD_TODOS_REQUEST: { return { ...store, loading: true, error: false } }
+        case ADD_TODOS_SUCCESS: {   return { ...store, loading: false,}}
+        case ADD_TODOS_FAILURE: {  return { ...store, loading: true, error: false } }
         default: return store;
     }
 }
