@@ -14,7 +14,7 @@ export const ProdDetail = () => {
     }, [])
     const getData = () => {
         axios({
-            url: `http://localhost:8080/allpro/${id}`,
+            url: `https://cartiphone.herokuapp.com/allpro/${id}`,
             method: "GET"
         }).then((res) => {
             setPro(res.data)
@@ -24,7 +24,7 @@ export const ProdDetail = () => {
     const handleAdd = (id, src, name, price) => {
         // console.log(name)
         axios({
-            url: "http://localhost:8080/cart",
+            url: "https://cartiphone.herokuapp.com/cart",
             "method": "POST",
             data: {
                 id: id,
@@ -35,6 +35,8 @@ export const ProdDetail = () => {
             }
         }).then((res)=>{
             alert("product add to cart")
+        }).catch((err)=>{
+            alert("product allready in cart")
         })
     }
     const goTOCart=()=>[

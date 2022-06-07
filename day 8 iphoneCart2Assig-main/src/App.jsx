@@ -24,7 +24,7 @@ function App() {
         <Route path='/ipad' element={<Ipads />} />
         <Route path='/iphone' element={<Iphone />} />
         <Route path='/mac' element={<Mac />} />
-        <Route path='/store' element={<Store />} />
+        <Route path='/' element={<Store />} />
         <Route path='/watch' element={<Watch />} />
         <Route path='/prod/:id' element={<ProdDetail/>}/>
       </Routes>

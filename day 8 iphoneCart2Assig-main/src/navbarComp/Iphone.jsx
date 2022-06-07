@@ -1,20 +1,22 @@
 
 
 import axios from "axios"
-import { useEffect, useState } from "react"
+import { useContext, useEffect, useState } from "react"
 import { Link, Navigate, useNavigate } from "react-router-dom"
 import { ProdDetail } from "../components/productDetailPage"
+import { CartContext } from "../context/cartContetext"
 import "../css/store.css"
 
 export const Iphone = () => {
     const [mac, setMac] = useState([])
+ //   const { handleCart } = useContext(CartContext)
  const navigate=useNavigate()
     useEffect(() => {
         getData()
     }, [])
     const getData = () => {
         axios({
-            url: "http://localhost:8080/iphone",
+            url: "https://cartiphone.herokuapp.com/iphone",
             method: "GET"
         }).then((res) => {
             setMac(res.data)
@@ -22,8 +24,9 @@ export const Iphone = () => {
     }
     const handleAdd = (id, src, name, price) => {
         // console.log(name)
+     //   handleCart()
         axios({
-            url: "http://localhost:8080/cart",
+            url: "https://cartiphone.herokuapp.com/cart",
             "method": "POST",
             data: {
                 id: id,

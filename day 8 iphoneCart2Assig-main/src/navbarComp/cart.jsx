@@ -2,20 +2,24 @@
 
 
 import axios from "axios"
-import { useEffect, useState } from "react"
+import { useContext, useEffect, useState } from "react"
+import { CartContext } from "../context/cartContetext"
 import "../css/store.css"
 import { Mac } from "./Mac"
 
 export const Cart = () => {
 
     const [cart, setCart] = useState([])
-    const [length, setLength] = useState("")
+    const [length, setLength] = useState(0)
+    const { setCartlength } = useContext(CartContext)
     useEffect(() => {
         getData()
-    }, [])
+        setCartlength(length)
+
+    }, [length, cart])
     const getData = () => {
         axios({
-            url: "http://localhost:8080/cart",
+            url: "https://cartiphone.herokuapp.com/cart",
             method: "GET"
         }).then((res) => {
             setCart(res.data)
@@ -26,7 +30,7 @@ export const Cart = () => {
     const handleSplice = (id) => {
         console.log(id)
         axios({
-            url: `http://localhost:8080/cart/${id}`,
+            url: `https://cartiphone.herokuapp.com/cart/${id}`,
             method: "DELETE",
 
         }).then((res) => {

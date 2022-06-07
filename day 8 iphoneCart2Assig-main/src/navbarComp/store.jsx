@@ -10,7 +10,7 @@ export const Store = () => {
     }, [])
     const getData = () => {
         axios({
-            url: "http://localhost:8080/store",
+            url: "https://cartiphone.herokuapp.com/store",
             method: "GET"
         }).then((res) => {
             setStore(res.data)
