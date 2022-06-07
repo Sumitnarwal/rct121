@@ -1,0 +1,204 @@
+{
+  "store": [
+    {
+      "id": 1,
+      "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-mac-nav-202203?wid=200&hei=130&fmt=png-alpha&.v=1645051958490",
+      "name": "Mac"
+    },
+    {
+      "id": 2,
+      "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-iphone-nav-202109_GEO_US?wid=200&hei=130&fmt=png-alpha&.v=1630706116000",
+      "name": "iPhone"
+    },
+    {
+      "id": 3,
+      "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-ipad-nav-202108?wid=200&hei=130&fmt=png-alpha&.v=1625783381000",
+      "name": "iPad"
+    },
+    {
+      "id": 4,
+      "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-watch-nav-202203?wid=200&hei=130&fmt=png-alpha&.v=1645052537409",
+      "name": "Apple Watch"
+    },
+    {
+      "id": 5,
+      "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-airpods-nav-202110?wid=200&hei=130&fmt=png-alpha&.v=1633718741000",
+      "name": "AirPods"
+    },
+    {
+      "id": 6,
+      "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-airtags-nav-202108?wid=200&hei=130&fmt=png-alpha&.v=1625783380000",
+      "name": "AirTag"
+    },
+    {
+      "id": 7,
+      "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-appletv-nav-202108?wid=200&hei=130&fmt=png-alpha&.v=1625783378000",
+      "name": "Apple TV"
+    },
+    {
+      "id": 8,
+      "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-accessories-nav-202203?wid=200&hei=130&fmt=png-alpha&.v=1645051958489",
+      "name": "Accessories"
+    }
+  ],
+  "mac": [
+    {
+      "id": 11,
+      "img": "https://rukminim1.flixcart.com/image/312/312/khdqnbk0/computer/f/y/t/apple-original-imafxfyqydgvrkzv.jpeg?q=70",
+      "name": "MacBook Air",
+      "price": 999
+    },
+    {
+      "id": 12,
+      "img": "https://m.media-amazon.com/images/I/71gD8WdSlaL._AC_UY218_.jpg",
+      "name": "MacBook Pro 13”",
+      "price": 1299
+    },
+    {
+      "id": 13,
+      "img": "https://m.media-amazon.com/images/I/71Q6Zax0irL._AC_UY218_.jpghttps://m.media-amazon.com/images/I/71Q6Zax0irL._AC_UY218_.jpg",
+      "name": "MacBook Pro 14” and 16”",
+      "price": 1999
+    }
+  ],
+  "ipad": [
+    {
+      "id": 21,
+      "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-card-40-pro-202108?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1627413382000",
+      "name": "iPad Pro",
+      "price": 799
+    },
+    {
+      "id": 22,
+      "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-card-40-air-202203?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1644963446761",
+      "name": "iPad Air",
+      "price": 599
+    },
+    {
+      "id": 23,
+      "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-card-40-ipad-202109?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1630640992000",
+      "name": "iPad",
+      "price": 329
+    },
+    {
+      "id": 24,
+      "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-card-40-ipad-mini-202109?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1630457637000",
+      "name": "iPad mini",
+      "price": 499
+    }
+  ],
+  "iphone": [
+    {
+      "id": 31,
+      "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone13pro-202203?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1644989935267",
+      "name": "iPhone 13 Pro",
+      "price": 999
+    },
+    {
+      "id": 32,
+      "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone13-202203?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1646335268199",
+      "name": "iPad Air",
+      "price": 599
+    },
+    {
+      "id": 33,
+      "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphonese-202203?wid=340&hei=264&fmt=jpeg&qlt=95&.v=1646415838921",
+      "name": "iPhone SE",
+      "price": 429
+    },
+    {
+      "id": 34,
+      "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone12purple-202109?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1646335268265",
+      "name": "iPhone 12",
+      "price": 599
+    },
+    {
+      "id": 35,
+      "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone-11-202108?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1646502984732",
+      "name": "iPhone 11",
+      "price": 499
+    }
+  ],
+  "cart": [
+    {
+      "id": 13,
+      "img": "https://m.media-amazon.com/images/I/71Q6Zax0irL._AC_UY218_.jpghttps://m.media-amazon.com/images/I/71Q6Zax0irL._AC_UY218_.jpg",
+      "name": "MacBook Pro 14” and 16”",
+      "price": 1999
+    }
+  ],
+  "allPro": [
+    {
+      "id": 31,
+      "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone13pro-202203?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1644989935267",
+      "name": "iPhone 13 Pro",
+      "price": 999
+    },
+    {
+      "id": 32,
+      "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone13-202203?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1646335268199",
+      "name": "iPad Air",
+      "price": 599
+    },
+    {
+      "id": 33,
+      "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphonese-202203?wid=340&hei=264&fmt=jpeg&qlt=95&.v=1646415838921",
+      "name": "iPhone SE",
+      "price": 429
+    },
+    {
+      "id": 34,
+      "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone12purple-202109?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1646335268265",
+      "name": "iPhone 12",
+      "price": 599
+    },
+    {
+      "id": 35,
+      "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone-11-202108?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1646502984732",
+      "name": "iPhone 11",
+      "price": 499
+    },
+    {
+      "id": 11,
+      "img": "https://rukminim1.flixcart.com/image/312/312/khdqnbk0/computer/f/y/t/apple-original-imafxfyqydgvrkzv.jpeg?q=70",
+      "name": "MacBook Air",
+      "price": 999
+    },
+    {
+      "id": 12,
+      "img": "https://m.media-amazon.com/images/I/71gD8WdSlaL._AC_UY218_.jpg",
+      "name": "MacBook Pro 13”",
+      "price": 1299
+    },
+    {
+      "id": 13,
+      "img": "https://m.media-amazon.com/images/I/71Q6Zax0irL._AC_UY218_.jpghttps://m.media-amazon.com/images/I/71Q6Zax0irL._AC_UY218_.jpg",
+      "name": "MacBook Pro 14” and 16”",
+      "price": 1999
+    },
+    {
+      "id": 21,
+      "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-card-40-pro-202108?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1627413382000",
+      "name": "iPad Pro",
+      "price": 799
+    },
+    {
+      "id": 22,
+      "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-card-40-air-202203?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1644963446761",
+      "name": "iPad Air",
+      "price": 599
+    },
+    {
+      "id": 23,
+      "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-card-40-ipad-202109?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1630640992000",
+      "name": "iPad",
+      "price": 329
+    },
+    {
+      "id": 24,
+      "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-card-40-ipad-mini-202109?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1630457637000",
+      "name": "iPad mini",
+      "price": 499
+    }
+  ]
+}
