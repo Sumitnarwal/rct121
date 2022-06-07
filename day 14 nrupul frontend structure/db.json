@@ -1,0 +1,497 @@
+{
+    "data": [
+        {
+            "name": "Tapri Chai Wala",
+            "forOne": "600",
+            "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdGF1cmFudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+            "rating": 4,
+            "cost": 420,
+            "food": "Asian",
+            "Votes": 5,
+            "reviews": 512,
+            "card_payment": {
+                "card": true,
+                "cash": true,
+                "upi": true
+            }
+        },
+        {
+            "name": "Holy Basil",
+            "forOne": "200",
+            "image": "https://images.unsplash.com/photo-1537047902294-62a40c20a6ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cmVzdGF1cmFudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+            "rating": 2,
+            "food": "Chines",
+            "Votes": 50, 
+            "cost": 100,
+
+            "reviews": 200,
+            "card_payment": {
+                "card": true,
+                "cash": false,
+                "upi": true
+            }
+        },
+        {
+            "name": "The Disaster Café",
+            "image": "https://images.unsplash.com/photo-1578474846511-04ba529f0b88?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cmVzdGF1cmFudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+            "rating": 3,
+            "forOne": "400",
+            "cost": 350,
+            "food": "thai",
+            "Votes": 50,
+            "reviews": 112,
+            "card_payment": {
+                "card": false,
+                "cash": true,
+                "upi": false
+            }
+        },
+        {
+            "name": "Dine In a Dime",
+            "image": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHJlc3RhdXJhbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+            "rating": 4.4,
+            "forOne": "250",
+            "cost": 200,
+            "food": "italian",
+            "Votes": 35,
+            "reviews": 158,
+            "card_payment": {
+                "card": false,
+                "cash": true,
+                "upi": true
+            }
+        },
+        {
+            "name": "Grill & Chill",
+            "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHJlc3RhdXJhbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+            "rating": 3,
+            "forOne": "800",
+            "cost": 550,
+            "food": "korean",
+            "Votes": 50,
+            "reviews": 112,
+            "card_payment": {
+                "card": false,
+                "cash": false,
+                "upi": true
+            }
+        },
+        {
+            "name": "Tuscany Courtyard",
+            "image": "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHJlc3RhdXJhbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+            "rating": 5,
+            "food": "indian",
+            "forOne": "250",
+            "cost": 100,
+            "Votes": 35,
+            "reviews": 54,
+            "card_payment": {
+                "card": true,
+                "cash": false,
+                "upi": true
+            }
+        },
+        {
+            "name": "The Salad Life",
+            "image": "https://images.unsplash.com/photo-1498654896293-37aacf113fd9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHJlc3RhdXJhbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+            "rating": 5,
+            "cost": 200,
+            "forOne": "300",
+            "food": "veg",
+            "Votes": 44,
+            "reviews": 124,
+            "card_payment": {
+                "card": false,
+                "cash": false,
+                "upi": true
+            }
+        },
+        {
+            "name": "Polo Bar",
+            "image": "https://images.unsplash.com/photo-1585518419759-7fe2e0fbf8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHJlc3RhdXJhbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+            "rating": 2,
+            "cost": 400,
+            "forOne": "500",
+            "food": "non-veg",
+            "Votes": 7,
+            "reviews": 55,
+            "card_payment": {
+                "card": false,
+                "cash": true,
+                "upi": true
+            }
+        },
+        {
+            "name": "The Harbor House Restaurant.",
+            "image": "https://images.unsplash.com/photo-1481833761820-0509d3217039?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fHJlc3RhdXJhbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+            "rating": 4,
+            "forOne": "400",
+            "cost": 150,
+            "food": "veg",
+            "Votes": 70,
+            "reviews": 505,
+            "card_payment": {
+                "card": true,
+                "cash": true,
+                "upi": true
+            }
+        },
+        {
+            "name": "The French Gourmet",
+            "image": "https://images.unsplash.com/photo-1504718855392-c0f33b372e72?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fHJlc3RhdXJhbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+            "rating": 3.5,
+            "cost": 50,
+            "forOne": "100",
+            "food": "veg",
+            "Votes": 7,
+            "reviews": 45,
+            "card_payment": {
+                "card": false,
+                "cash": true,
+                "upi": false
+            }
+        },
+        {
+            "name": "Hollywood Café",
+            "image": "https://images.unsplash.com/photo-1522336572468-97b06e8ef143?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fHJlc3RhdXJhbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+            "rating": 5,
+            "cost": 350,
+            "forOne": "600",
+            "food": "non-veg",
+            "Votes": 70,
+            "reviews": 230,
+            "card_payment": {
+                "card": true,
+                "cash": false,
+                "upi": true
+            }
+        },
+        {
+            "name": "Bollywood Café",
+            "image": "https://images.unsplash.com/photo-1636405188904-bc706f07aa37?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTd8fHJlc3RhdXJhbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+            "rating": 3.5,
+            "cost": 200,
+            "forOne": "1000",
+            "food": "indian",
+            "Votes": 57,
+            "reviews": 44,
+            "card_payment": {
+                "card": true,
+                "cash": false,
+                "upi": false
+            }
+        },
+        {
+            "_id": "62875ae21ffce0581c52ef5e",
+            "name": "Aanand Hotel",
+            "food": "American",
+            "cost": 200,
+            "forOne": 50,
+            "paymentMethods": "Accepts card payments only",
+            "rating": 4.2,
+            "Votes": 567,
+            "reviews": 467,
+            "image": "https://www.themealdb.com/images/media/meals/urzj1d1587670726.jpg",
+            "id": 5
+        },
+        {
+            "_id": "62875ae21ffce0581c52ef5f",
+            "name": "Fab Hotel",
+            "food": "Italian",
+            "cost": 300,
+            "forOne": 100,
+            "paymentMethods": "Accepts card payments only",
+            "rating": 3.6,
+            "Votes": 231,
+            "reviews": 345,
+            "image": "https://www.themealdb.com/images/media/meals/sbx7n71587673021.jpg",
+            "id": 6
+        },
+        {
+            "_id": "62875ae21ffce0581c52ef60",
+            "name": "Trebo Hotel",
+            "food": "Japanese",
+            "cost": 600,
+            "forOne": 150,
+            "paymentMethods": "Accepts COD payments only",
+            "rating": 2.8,
+            "Votes": 345,
+            "reviews": 467,
+            "image": "https://www.themealdb.com/images/media/meals/qrqywr1503066605.jpg",
+            "id": 7
+        },
+        {
+            "_id": "62875ae21ffce0581c52ef61",
+            "name": "The Pride Hotel",
+            "food": "Indian",
+            "cost": 100,
+            "forOne": 150,
+            "paymentMethods": "Accepts card and COD payments",
+            "rating": 3.6,
+            "Votes": 567,
+            "reviews": 345,
+            "image": "https://www.themealdb.com/images/media/meals/rqvwxt1511384809.jpg",
+            "id": 8
+        },
+        {
+            "_id": "62875ae21ffce0581c52ef62",
+            "name": "Hotel Center Point",
+            "food": "Chinese",
+            "cost": 600,
+            "forOne": 50,
+            "paymentMethods": "Accepts COD payments only",
+            "rating": 4.2,
+            "Votes": 745,
+            "reviews": 539,
+            "image": "https://www.themealdb.com/images/media/meals/yypvst1511386427.jpg",
+            "id": 9
+        },
+        {
+            "_id": "62875ae21ffce0581c52ef63",
+            "name": "Matoshree Hotel",
+            "food": "Italian",
+            "cost": 400,
+            "forOne": 200,
+            "paymentMethods": "Accepts card payments only",
+            "rating": 2.8,
+            "Votes": 145,
+            "reviews": 192,
+            "image": "https://www.themealdb.com/images/media/meals/rvtvuw1511190488.jpg",
+            "id": 10
+        },
+        {
+            "_id": "62875ae21ffce0581c52ef64",
+            "name": "Sangam Hotel",
+            "food": "Italian",
+            "cost": 200,
+            "forOne": 200,
+            "paymentMethods": "Accepts card payments only",
+            "rating": 0.9,
+            "Votes": 745,
+            "reviews": 467,
+            "image": "https://www.themealdb.com/images/media/meals/b5ft861583188991.jpg",
+            "id": 11
+        },
+        {
+            "_id": "62875ae21ffce0581c52ef65",
+            "name": "Haldiram Hotel ",
+            "food": "Indian",
+            "cost": 300,
+            "forOne": 100,
+            "paymentMethods": "Accepts COD payments only",
+            "rating": 3.1,
+            "Votes": 231,
+            "reviews": 539,
+            "image": "https://www.themealdb.com/images/media/meals/1543774956.jpg",
+            "id": 12
+        },
+        {
+            "_id": "62875ae21ffce0581c52ef66",
+            "name": "Orange Hotel",
+            "food": "Italian",
+            "cost": 100,
+            "forOne": 150,
+            "paymentMethods": "Accepts card and COD payments",
+            "rating": 3.6,
+            "Votes": 745,
+            "reviews": 547,
+            "image": "https://www.themealdb.com/images/media/meals/xutquv1505330523.jpg",
+            "id": 13
+        },
+        {
+            "_id": "62875ae21ffce0581c52ef67",
+            "name": "Silver Hotel",
+            "food": "Indian",
+            "cost": 100,
+            "forOne": 200,
+            "paymentMethods": "Accepts card payments only",
+            "rating": 3.6,
+            "Votes": 567,
+            "reviews": 467,
+            "image": "https://www.themealdb.com/images/media/meals/kvbotn1581012881.jpg",
+            "id": 14
+        },
+        {
+            "_id": "62875ae21ffce0581c52ef68",
+            "name": "MOMOS CAFE",
+            "food": "Italian",
+            "cost": 600,
+            "forOne": 150,
+            "paymentMethods": "Accepts COD payments only",
+            "rating": 4.2,
+            "Votes": 145,
+            "reviews": 467,
+            "image": "https://www.themealdb.com/images/media/meals/xrysxr1483568462.jpg",
+            "id": 15
+        },
+        {
+            "_id": "62875ae21ffce0581c52ef69",
+            "name": "CHAI Choupati",
+            "food": "Chinese",
+            "cost": 600,
+            "forOne": 100,
+            "paymentMethods": "Accepts card and COD payments",
+            "rating": 3.1,
+            "Votes": 345,
+            "reviews": 467,
+            "image": "https://www.themealdb.com/images/media/meals/xqusqy1487348868.jpg",
+            "id": 16
+        },
+        {
+            "_id": "62875ae21ffce0581c52ef6a",
+            "name": "Taj Hotel",
+            "food": "American",
+            "cost": 100,
+            "forOne": 200,
+            "paymentMethods": "Accepts COD payments only",
+            "rating": 4.2,
+            "Votes": 745,
+            "reviews": 467,
+            "image": "https://www.themealdb.com/images/media/meals/qpqtuu1511386216.jpg",
+            "id": 17
+        },
+        {
+            "_id": "62875ae21ffce0581c52ef6b",
+            "name": "Marathon Hotel",
+            "food": "American",
+            "cost": 100,
+            "forOne": 50,
+            "paymentMethods": "Accepts card and COD payments",
+            "rating": 3.1,
+            "Votes": 745,
+            "reviews": 192,
+            "image": "https://www.themealdb.com/images/media/meals/4i5cnx1587672171.jpg",
+            "id": 18
+        },
+        {
+            "_id": "62875ae21ffce0581c52ef6c",
+            "name": "Univest Hotel",
+            "food": "American",
+            "cost": 100,
+            "forOne": 150,
+            "paymentMethods": "Accepts card payments only",
+            "rating": 2.8,
+            "Votes": 567,
+            "reviews": 547,
+            "image": "https://www.themealdb.com/images/media/meals/xr0n4r1576788363.jpg",
+            "id": 19
+        },
+        {
+            "_id": "62875ae21ffce0581c52ef6d",
+            "name": "Absolute Hotel",
+            "food": "American",
+            "cost": 400,
+            "forOne": 150,
+            "paymentMethods": "Accepts COD payments only",
+            "rating": 3.6,
+            "Votes": 567,
+            "reviews": 539,
+            "image": "https://www.themealdb.com/images/media/meals/swttys1511385853.jpg",
+            "id": 20
+        },
+        {
+            "_id": "62875ae21ffce0581c52ef6e",
+            "name": "Radhe shyam Hotel",
+            "food": "Indian",
+            "cost": "300",
+            "forOne": "150",
+            "paymentMethods": "Accepts card payments only",
+            "rating": "4.2",
+            "Votes": "234",
+            "reviews": "654",
+            "image": "https://www.themealdb.com/images/media/meals/rwuyqx1511383174.jpg",
+            "id": 21
+        },
+        {
+            "_id": "62875ae21ffce0581c52ef6f",
+            "name": "Ramji Shyamji Pohewale",
+            "food": "poha",
+            "cost": "30",
+            "forOne": "25",
+            "paymentMethods": "Accepts card payments only",
+            "rating": "4",
+            "Votes": "435",
+            "reviews": "234",
+            "image": "https://media.istockphoto.com/photos/poha-popular-indian-breakfast-picture-id501425188?s=2048x2048",
+            "id": 1
+        },
+        {
+            "_id": "62875ae21ffce0581c52ef70",
+            "name": "Mumbai Cha Vadapav",
+            "food": "vadapav",
+            "cost": "30",
+            "forOne": "20",
+            "paymentMethods": "Accepts card payments only",
+            "rating": "4",
+            "Votes": "435",
+            "reviews": "234",
+            "image": "https://media.istockphoto.com/photos/vada-pav-picture-id1267018755?s=612x612",
+            "id": 2
+        },
+        {
+            "_id": "62875ae21ffce0581c52ef71",
+            "name": "Misal pav",
+            "food": "vadapav",
+            "cost": "120",
+            "forOne": "100",
+            "paymentMethods": "Accepts card and COD payments",
+            "rating": "3.9",
+            "Votes": "635",
+            "reviews": "434",
+            "image": "https://media.istockphoto.com/photos/pav-bhaji-is-a-fast-food-dish-from-india-consists-of-a-thick-curry-picture-id1319403400?s=2048x2048",
+            "id": 3
+        },
+        {
+            "_id": "62875ae21ffce0581c52ef72",
+            "name": "Tadka Hotel",
+            "food": "Indian",
+            "cost": 400,
+            "forOne": 50,
+            "paymentMethods": "Accepts card payments only",
+            "rating": 3.1,
+            "Votes": 567,
+            "reviews": 192,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkGOlEHYTaUe6g7wTBlwcRu63Ykg-1thM_DQ&usqp=CAU",
+            "id": 22
+        },
+        {
+            "_id": "62875ae21ffce0581c52ef73",
+            "name": "Reddission Hotel",
+            "food": "Italian",
+            "cost": 200,
+            "forOne": 200,
+            "paymentMethods": "Accepts card and COD payments",
+            "rating": 2.8,
+            "Votes": 231,
+            "reviews": 467,
+            "image": "https://www.themealdb.com/images/media/meals/sywswr1511383814.jpg",
+            "id": 23
+        },
+        {
+            "_id": "62875ae21ffce0581c52ef74",
+            "name": "Le-Meridian Hotel",
+            "food": "Chinese",
+            "cost": 200,
+            "forOne": 100,
+            "paymentMethods": "Accepts COD payments only",
+            "rating": 2.8,
+            "Votes": 231,
+            "reviews": 192,
+            "image": "https://www.themealdb.com/images/media/meals/atd5sh1583188467.jpg",
+            "id": 24
+        },
+        {
+            "_id": "62875ae21ffce0581c52ef75",
+            "name": "Tuli Imperial Ltd",
+            "food": "Italian",
+            "cost": 100,
+            "forOne": 200,
+            "paymentMethods": "Accepts COD payments only",
+            "rating": 3.6,
+            "Votes": 567,
+            "reviews": 345,
+            "image": "https://www.themealdb.com/images/media/meals/ursuup1487348423.jpg",
+            "id": 4
+        }
+    ]
+}
